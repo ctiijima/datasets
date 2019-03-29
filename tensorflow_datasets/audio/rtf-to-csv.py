@@ -36,4 +36,5 @@ if __name__ == "__main__":
     if len(sys.argv) !=2:
         print('Converts a folder of RTF\'s into a single CSV.')
         print('Usage: %s folder path' % sys.argv[0])
-    main(sys.argv[1])
+    else:
+        main(sys.argv[1])
